@@ -1,0 +1,43 @@
+# SmartFix Repairs Website
+
+A responsive static website developed for SmartFix Repairs, my electronics
+diagnostics and repair business.
+
+![SmartFix Repairs website preview](assets/images/site-preview.png)
+
+## Live Website
+
+[Visit the SmartFix Repairs website](YOUR-LIVE-SITE-URL)
+
+## Overview
+
+The website provides:
+
+- Repair-service information
+- A description of the customer process
+- An online quote-request form
+- Contact information
+- Mobile-responsive page layouts
+
+## Technologies
+
+- HTML5
+- CSS3
+- Formspree
+- GitHub Pages
+- GitHub Actions
+
+## My Work
+
+I designed and implemented the site's structure, responsive styling, business
+content, quote-request workflow, and deployment configuration.
+
+## Repository Structure
+
+```text
+.
+├── .github/workflows/static.yml
+├── assets/images/
+├── css/styles.css
+├── index.html
+└── README.md
