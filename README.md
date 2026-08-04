@@ -57,7 +57,7 @@ SmartFixRepairs/
 
 ## My Contributions
 
-I designed and implemented the website, including:
+I designed and implemented the website with the assistance of ChatGPT, including:
 
 - Page structure and semantic HTML
 - Responsive CSS layout
@@ -80,29 +80,6 @@ The quote form submits customer requests through Formspree. It collects:
 
 Submitting the form does not authorize a repair or guarantee a final price. Repair recommendations and pricing are confirmed separately after the request is reviewed.
 
-## Local Development
-
-Clone the repository:
-
-```bash
-git clone https://github.com/Ilkremer/SmartFixRepairs.git
-cd SmartFixRepairs
-```
-
-Start a local web server:
-
-```bash
-python -m http.server 8000
-```
-
-Then open:
-
-```text
-http://localhost:8000
-```
-
-Stop the server with `Ctrl+C`.
-
 ## Deployment
 
 The website is deployed through GitHub Pages.
@@ -114,19 +91,6 @@ Pushes to the `main` branch trigger the workflow located at:
 ```
 
 The workflow checks out the repository, uploads the static site files, and deploys them to GitHub Pages.
-
-## Future Improvements
-
-Potential future updates include:
-
-- Form-submission confirmation page
-- Additional repair-service detail pages
-- Customer review section
-- Improved social-media preview metadata
-- Automated HTML and CSS validation
-- Additional accessibility testing
-- Image optimization
-- Custom domain configuration
 
 ## Author
 
