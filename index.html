@@ -3,117 +3,275 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SmartFix Repairs provides electronics diagnostics and repair services for phones, tablets, computers, and other devices.">
-  <title>SmartFix Repairs</title>
+
+  <meta
+    name="description"
+    content="SmartFix Repairs provides electronics diagnostics and repair services for phones, tablets, computers, and other devices."
+  >
+
+  <title>SmartFix Repairs | Electronics Repair Services</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-  <!-- Header / Navigation -->
-  <header>
-    <div class="container">
-      <a href="#"><img src="assets/images/logo.png" alt="SmartFix Repairs logo" class="logo"></a>
-      <nav>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="SmartFix Repairs home">
+        <img
+          class="logo"
+          src="assets/images/logo.png"
+          alt="SmartFix Repairs"
+        >
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
         <ul>
           <li><a href="#services">Services</a></li>
           <li><a href="#process">How It Works</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Get a Quote</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section id="hero">
-    <div class="container">
-      <h2>Fast. Reliable. Convenient.</h2>
-      <p>Screen & Battery Replacements • Pickup & Drop‑off</p>
-      <a href="#contact" class="btn">Get a Free Quote</a>
-    </div>
-  </section>
+  <main id="main-content">
+    <section class="hero" id="top" aria-labelledby="hero-heading">
+      <div class="container hero-content">
+        <p class="eyebrow">Local electronics repair</p>
+        <h1 id="hero-heading">Fast. Reliable. Convenient.</h1>
+        <p class="hero-summary">
+          Screen and battery replacements, device diagnostics, and repair
+          services with drop-off and pickup options.
+        </p>
+        <a class="button" href="#contact">Request a Free Quote</a>
+      </div>
+    </section>
 
-  <!-- Services Section -->
-    <!-- Services Section -->
-  <section id="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <div class="grid">
-        <div class="service">
-          <h3>Phone & Tablet Repairs</h3>
-          <p>Screen repairs, battery swaps, water damage fixes and more.</p>
+    <section class="section" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">What we repair</p>
+          <h2 id="services-heading">Our Services</h2>
+          <p>
+            Practical diagnostics and repair support for common consumer
+            electronics and household devices.
+          </p>
         </div>
-        <div class="service">
-          <h3>Laptops & Computers</h3>
-          <p>Hardware diagnostics, component replacements, software troubleshooting.</p>
-        </div>
-        <div class="service">
-          <h3>TVs & Appliances</h3>
-          <p>Screen and electrical repairs for TVs, microwaves, mixers, and beyond.</p>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Phones &amp; Tablets</h3>
+            <p>
+              Screen replacements, battery replacements, charging issues,
+              water-damage evaluation, and general troubleshooting.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <h3>Laptops &amp; Computers</h3>
+            <p>
+              Hardware diagnostics, component replacement, performance issues,
+              software troubleshooting, and system setup.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <h3>Consoles &amp; Electronics</h3>
+            <p>
+              Diagnostics and repair evaluation for game consoles, televisions,
+              small appliances, and other consumer electronics.
+            </p>
+          </article>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Process Section -->
-  <section id="process">
-    <div class="container">
-      <h2>How It Works</h2>
-      <ol>
-        <li><strong>Request a Quote:</strong> Fill out our online form or call/text us.</li>
-        <li><strong>Drop‑off or Pickup:</strong> Bring your device in or schedule a pickup.</li>
-        <li><strong>Repair:</strong> We use OEM and premium parts backed by a 12-month warranty.</li>
-        <li><strong>Return:</strong> Pick up your device or have it delivered.</li>
-      </ol>
-    </div>
-  </section>
+    <section class="section section-muted" id="process" aria-labelledby="process-heading">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Simple and transparent</p>
+          <h2 id="process-heading">How It Works</h2>
+        </div>
 
-    <!-- About Section -->
-  <section id="about">
-    <div class="container">
-      <h2>About SmartFix Repairs</h2>
-      <p>Founded by Isaac Kremer, a dual major engineering student with hands-on expertise in electronics and device troubleshooting, SmartFix Repairs combines technical precision with a passion for problem-solving. We specialize in fast, reliable screen and battery replacements, serving Reading, PA with drop-off and pickup services. While phones and tablets are our core focus, our skill set extends to laptops, TVs, and household electronics—ensuring all your devices receive expert care under one roof.</p>
-      <p>Our mission is to provide transparent pricing, quality parts, and a seamless repair experience. From humble beginnings fixing personal gadgets to establishing a community-driven repair hub, SmartFix Repairs is committed to keeping your devices—and your life—running smoothly.</p>
-    </div>
-  </section>
+        <ol class="process-list">
+          <li>
+            <div>
+              <h3>Request a Quote</h3>
+              <p>
+                Submit the form below or contact us with the device model and
+                a description of the issue.
+              </p>
+            </div>
+          </li>
 
-  <!-- Contact / Quote Form -->
-  <section id="contact">
-    <div class="container">
-      <h2>Contact & Quote</h2>
-      <form action="https://formspree.io/f/mrblzbgv" method="POST">
-        <input type="hidden" name="_replyto">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
+          <li>
+            <div>
+              <h3>Choose Drop-off or Pickup</h3>
+              <p>
+                Bring the device to us or arrange a pickup when that service is
+                available for your location.
+              </p>
+            </div>
+          </li>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
+          <li>
+            <div>
+              <h3>Diagnosis and Approval</h3>
+              <p>
+                We evaluate the device, explain the recommended repair, and
+                confirm pricing before completing approved work.
+              </p>
+            </div>
+          </li>
 
-        <label for="phone">Phone</label>
-        <input type="tel" id="phone" name="phone" required>
+          <li>
+            <div>
+              <h3>Repair and Return</h3>
+              <p>
+                After the repair is completed and tested, the device is ready
+                for pickup or return delivery.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
 
-        <label for="device">Device & Issue</label>
-        <input type="text" id="device" name="device" required placeholder="e.g. iPhone 12 screen crack">
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="container about-layout">
+        <div>
+          <p class="eyebrow">About the business</p>
+          <h2 id="about-heading">About SmartFix Repairs</h2>
+        </div>
 
-        <label for="service">Preferred Service</label>
-        <select id="service" name="service">
-          <option value="drop-off">Drop-off (you bring it to us)</option>
-          <option value="pick-up">Pickup (we come to you)</option>
-        </select>
+        <div class="about-copy">
+          <p>
+            SmartFix Repairs was founded by Isaac Kremer, an Electrical and
+            Computer Engineering student with hands-on experience in electronics,
+            hardware integration, and device troubleshooting.
+          </p>
 
-        <button type="submit" class="btn">Submit</button>
-      </form>
-    </div>
-  </section>
+          <p>
+            The business focuses on clear communication, practical diagnostics,
+            and reliable repair work. Phones and tablets are a core service area,
+            with additional support available for computers, game consoles,
+            televisions, and other electronics.
+          </p>
+        </div>
+      </div>
+    </section>
 
-  <!-- Footer -->
-    <!-- Footer -->
-  <footer>
-    <div class="container">
+    <section class="section contact-section" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact-layout">
+        <div class="contact-intro">
+          <p class="eyebrow">Start a repair request</p>
+          <h2 id="contact-heading">Contact &amp; Quote</h2>
+          <p>
+            Describe the device and problem. We will review the request and
+            follow up with the next steps.
+          </p>
+
+          <address class="contact-details">
+            <p>
+              <strong>Call or text:</strong>
+              <a href="tel:+14843631876">(484) 363-1876</a>
+            </p>
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:SmartFixRepairs2025@gmail.com">
+                SmartFixRepairs2025@gmail.com
+              </a>
+            </p>
+          </address>
+        </div>
+
+        <form
+          class="quote-form"
+          action="https://formspree.io/f/mrblzbgv"
+          method="POST"
+        >
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              autocomplete="name"
+              required
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              autocomplete="email"
+              required
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="phone">Phone</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              autocomplete="tel"
+              inputmode="tel"
+              required
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="device">Device and issue</label>
+            <textarea
+              id="device"
+              name="device"
+              rows="5"
+              placeholder="Example: iPhone 12 with a cracked screen and intermittent touch response"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-field">
+            <label for="service">Preferred service</label>
+            <select id="service" name="service" required>
+              <option value="">Select an option</option>
+              <option value="drop-off">Drop-off</option>
+              <option value="pick-up">Pickup, if available</option>
+            </select>
+          </div>
+
+          <button class="button button-full" type="submit">
+            Submit Repair Request
+          </button>
+
+          <p class="form-note">
+            Submitting this form does not authorize a repair or guarantee a
+            final price.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
       <p>&copy; 2026 SmartFix Repairs. All rights reserved.</p>
-      <p>Call/Text: (484) 363-1876 | <a href="mailto:SmartFixRepairs2025@gmail.com">SmartFixRepairs2025@gmail.com</a></p>
+      <a href="#top">Back to top</a>
     </div>
   </footer>
 </body>
