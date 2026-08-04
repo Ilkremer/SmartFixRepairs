@@ -8,7 +8,7 @@ The site presents available repair services, explains the repair process, provid
 
 ## Live Website
 
-[Visit the SmartFix Repairs website](ADD-LIVE-WEBSITE-URL-HERE)
+[Visit the SmartFix Repairs website](https://smartfix-repairs.com/)
 
 ## Project Overview
 
