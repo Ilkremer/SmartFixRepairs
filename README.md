@@ -12,7 +12,7 @@ The site presents available repair services, explains the repair process, provid
 
 ## Project Overview
 
-I created this website to provide SmartFix Repairs with a clear and accessible online presence. The site is designed to help customers understand the services offered, submit repair requests, and contact the business from desktop or mobile devices.
+I created this website with the assistance of ChatGPT to provide SmartFix Repairs with a clear and accessible online presence. The site is designed to help customers understand the services offered, submit repair requests, and contact the business from desktop or mobile devices.
 
 The website is built without a JavaScript framework or content-management system. It uses semantic HTML, custom CSS, Formspree for form submissions, and GitHub Pages for hosting.
 
